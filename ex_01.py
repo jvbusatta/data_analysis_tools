@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-base_credit = pd.read_csv('D:\PYTHON\AULAS\curso_python_a_z\mod_01\credit_data.csv')
+base_credit = pd.read_csv('D:\PYTHON\AULAS\curso_python_a_z\data_analysis_tools\credit_data.csv')
 
 print(base_credit.head(10))
 print(base_credit.describe())
@@ -193,3 +193,5 @@ with open('credit.pkl', mode = 'wb') as f:
 
 with open('census.pkl', mode = 'wb') as f:
     pickle.dump([X_census_treinamento, X_census_teste, y_census_treinamento, y_census_teste, f])
+    
+#writining the code
