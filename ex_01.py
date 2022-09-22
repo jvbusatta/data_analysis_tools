@@ -1,10 +1,4 @@
-from email.mime import base
-from statistics import mean
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import plotly.express as px
+decision tree learning
 
 base_credit = pd.read_csv('D:\PYTHON\AULAS\curso_python_a_z\data_analysis_tools\credit_data.csv')
 
